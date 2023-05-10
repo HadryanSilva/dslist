@@ -23,6 +23,8 @@ public class Game {
     private Double score;
     private String imgUrl;
     private String shortDescription;
+
+    @Column(length = 400)
     private String longDescription;
 
     public Game() {
